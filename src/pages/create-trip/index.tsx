@@ -1,11 +1,11 @@
 import React, { FormEvent, useState } from "react";
 
-import LogoIcon from "../../../components/logo";
 import { useNavigate } from "react-router-dom";
 import { InviteGuestsModal } from "./invite-guests-modal";
 import { ConfirmTripModal } from "./confirm-trip-modal";
 import { DestinationAndDateStep } from "./steps/destination-and-date";
 import { InviteGuestsStep } from "./steps/invite-guests";
+import LogoIcon from "../../components/logo";
 
 function CreateTripPage() {
   const navigate = useNavigate();
